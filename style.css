@@ -1,0 +1,92 @@
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    box-sizing: content-box;
+    background-color: #0d2b4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F6F6F6;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+}
+textarea {
+    width: 95%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.dark{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#d00909;
+}
+.light{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1d5391; 
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#FFF;
+    color: #007BFF; 
+}
+
